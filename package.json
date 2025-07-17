@@ -6,7 +6,9 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "deploy:pre": "vercel deploy --prebuilt",
+    "deploy": "vercel deploy --prod"
   },
   "dependencies": {
     "@astrojs/vercel": "^8.2.2",
